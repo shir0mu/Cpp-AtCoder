@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(LLDB) Debug",
+            "name": "(LLDB) Debug C++",
             "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "cwd": "${fileDirname}/",
-            "preLaunchTask": "clang++ build active file",
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "g++-16 build active file"
         }
     ]
 }
